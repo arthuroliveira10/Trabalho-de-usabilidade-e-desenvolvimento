@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Insights | Transformando dados em insights valiosos</title>
+    <meta name="description" content="Somos uma startup inovadora que transforma dados brutos em informações valiosas para empresas de todos os portes.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Trabalho.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-chart-line text-primary"></i>
+                    <span>Data Insights</span>
+                </div>
+                <ul class="nav-links flex gap-6">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#clients">Clientes</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="mb-6">Transformando dados em <span class="text-primary">insights valiosos</span></h1>
+                <p class="mb-6 text-light">
+                    Somos uma startup inovadora nascida dentro da universidade, com a missão de transformar dados brutos em informações valiosas para empresas de todos os portes.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#services" class="btn btn-primary">Conheça nossos serviços <i class="fas fa-chevron-right ml-2"></i></a>
+                    <a href="#contact" class="btn btn-outline">Entre em contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/9k.png" alt="Data Analytics Dashboard">
+            </div>
+        </div>
+        <div class="hero-bg-shape hero-bg-shape-1"></div>
+        <div class="hero-bg-shape hero-bg-shape-2"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="mb-4">Nossos Serviços</h2>
+                <p class="text-light">
+                    Utilizamos técnicas avançadas de Data Science para identificar padrões, tendências e oportunidades que impulsionam o crescimento dos nossos clientes.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Service 1 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Análise de Dados</h3>
+                        <p class="text-light">Transforme dados brutos em informações acionáveis</p>
+                    </div>
+                    <div class="card-content">
+                        <p class="text-light">
+                            Analisamos seus dados para extrair insights valiosos que ajudam a melhorar processos e tomar decisões estratégicas.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="text-primary font-medium">
+                            Saiba mais <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Previsão e Tendências</h3>
+                        <p class="text-light">Antecipe o futuro com modelos preditivos</p>
+                    </div>
+                    <div class="card-content">
+                        <p class="text-light">
+                            Utilizamos algoritmos avançados para prever tendências e comportamentos futuros, permitindo que sua empresa se prepare adequadamente.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="text-primary font-medium">
+                            Saiba mais <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Análise de Comportamento</h3>
+                        <p class="text-light">Entenda melhor seus clientes</p>
+                    </div>
+                    <div class="card-content">
+                        <p class="text-light">
+                            Analisamos o comportamento dos seus clientes para identificar padrões e oportunidades de melhoria na experiência do usuário.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="text-primary font-medium">
+                            Saiba mais <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="mb-4">Casos de Sucesso</h2>
+                <p class="text-light">
+                    Conheça algumas empresas que transformaram seus negócios utilizando nossos serviços.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-8">
+                <!-- Client 1 -->
+                <div class="card card-accent-green">
+                    <div class="card-header">
+                        <h3>Vitrine Digital</h3>
+                        <p class="text-light">E-commerce</p>
+                    </div>
+                    <div class="card-content">
+                        <p class="text-light">
+                            "A Vitrine Digital viu suas vendas decolarem após usar a Data Insights! Analisamos o comportamento dos clientes e descobrimos que muitos abandonavam o carrinho. Com promoções personalizadas, as vendas aumentaram 30%."
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="text-sm text-light">Resultados: Aumento de 30% nas vendas</div>
+                        <a href="#" class="btn btn-sm btn-outline">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Client 2 -->
+                <div class="card card-accent-blue">
+                    <div class="card-header">
+                        <h3>Eco Produções</h3>
+                        <p class="text-light">Indústria Sustentável</p>
+                    </div>
+                    <div class="card-content">
+                        <p class="text-light">
+                            "A Eco Produções otimizou a produção e reduziu o desperdício com a Data Insights. Economizamos muito e ainda ficamos mais sustentáveis!"
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="text-sm text-light">Resultados: Redução de custos e maior sustentabilidade</div>
+                        <a href="#" class="btn btn-sm btn-outline">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image-container">
+                    <div class="about-image">
+                        <img src="img/timedev.jpg" alt="Equipe Data Insights">
+                        <div class="about-stats">
+                            <div class="stats-grid">
+                                <div>
+                                    <div class="stat-value">50+</div>
+                                    <div class="stat-label">Clientes</div>
+                                </div>
+                                <div>
+                                    <div class="stat-value">95%</div>
+                                    <div class="stat-label">Satisfação</div>
+                                </div>
+                                <div>
+                                    <div class="stat-value">5</div>
+                                    <div class="stat-label">Anos</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="mb-4">Sobre a Data Insights</h2>
+                    <p class="mb-6 text-light">
+                        A Data Insights é uma startup inovadora que nasceu dentro da universidade, com a missão de transformar dados brutos em informações valiosas para empresas de todos os portes. Usamos técnicas avançadas de Data Science para identificar padrões, tendências
+                        e oportunidades que impulsionam o crescimento dos nossos clientes.
+                    </p>
+                    <h3 class="mb-4">Nossos Valores</h3>
+                    <div class="values-list">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div>
+                                <span class="font-medium">Inovação</span>
+                                <p class="text-sm text-light">Buscamos constantemente novas tecnologias e métodos para melhorar nossos serviços.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div>
+                                <span class="font-medium">Transparência</span>
+                                <p class="text-sm text-light">Mantemos uma comunicação clara e honesta com nossos clientes em todos os momentos.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <div>
+                                <span class="font-medium">Compromisso com o cliente</span>
+                                <p class="text-sm text-light">Seu sucesso é o nosso sucesso. Trabalhamos incansavelmente para entregar os melhores resultados.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h2 class="mb-4">Entre em Contato</h2>
+                <p class="text-light">
+                    Estamos prontos para ajudar sua empresa a transformar dados em resultados. Entre em contato conosco.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-8">
+                <div class="card p-6">
+                    <h3 class="mb-6">Envie-nos uma mensagem</h3>
+                    <form class="contact-form">
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" id="name" class="form-control" placeholder="Seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="seu.email@exemplo.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" class="form-label">Empresa</label>
+                            <input type="text" id="company" class="form-control" placeholder="Nome da sua empresa">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea id="message" class="form-control" placeholder="Como podemos ajudar?" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="card p-6">
+                    <h3 class="mb-6">Informações de Contato</h3>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Endereço</h4>
+                                <p class="text-light">Av. das Universidades, 1000 - Tecnópolis<br>Cidade Universitária - Brasil</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <p class="text-light">contato@datainsights.com.br<br>suporte@datainsights.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Telefone</h4>
+                                <p class="text-light">(11) 4321-1234<br>(11) 98765-4321</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-cols-1 gap-10">
+                <div>
+                    <div class="footer-logo">
+                        <i class="fas fa-chart-line text-primary"></i>
+                        <span>Data Insights</span>
+                    </div>
+                    <p class="text-sm">
+                        Transformando dados brutos em informações valiosas para empresas de todos os portes.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#clients">Clientes</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Análise de Dados</a></li>
+                        <li><a href="#">Previsão e Tendências</a></li>
+                        <li><a href="#">Análise de Comportamento</a></li>
+                        <li><a href="#">Consultoria de Dados</a></li>
+                        <li><a href="#">Treinamento</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Contato</h4>
+                    <ul class="footer-links">
+                        <li class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt footer-contact-icon"></i>
+                            <span>Av. das Universidades, 1000 - Tecnópolis<br>Cidade Universitária - Brasil</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="fas fa-envelope footer-contact-icon"></i>
+                            <span>contato@datainsights.com.br</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="fas fa-phone footer-contact-icon"></i>
+                            <span>(11) 4321-1234</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="text-sm">
+                    &copy; 2025 Data Insights. Todos os direitos reservados.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
