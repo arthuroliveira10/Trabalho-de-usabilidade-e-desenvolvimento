@@ -22,7 +22,7 @@ A paleta de cores foi cuidadosamente escolhida para refletir profissionalismo e 
 - **Cores de destaque**: Verde para sucesso, azul para marca
 
 ### 2.3 Tipografia
-Utilizamos a fonte Google Fonts **"Inter"** com variações de peso:
+Utilizei a fonte Google Fonts **"Inter"** com variações de peso:
 
 - **Família**: Inter  
 - **Pesos**: 300, 400, 500, 600, 700  
