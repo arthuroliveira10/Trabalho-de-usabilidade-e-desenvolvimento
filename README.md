@@ -16,8 +16,8 @@ O projeto foi desenvolvido utilizando três arquivos principais:
 ### 2.2 Paleta de Cores
 A paleta de cores foi cuidadosamente escolhida para refletir profissionalismo e tecnologia:
 
-- **Cor primária**: `#1a65f7` (azul vibrante)
-- **Cor secundária**: `#f0f4f8` (cinza claro)
+- **Cor primária**: `#1a65f7` (azul)
+- **Cor secundária**: `#f0f4f8` (cinza)
 - **Cores de texto**: Tons de azul e cinza para legibilidade
 - **Cores de destaque**: Verde para sucesso, azul para marca
 
